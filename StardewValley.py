@@ -4,7 +4,7 @@ import plotly.express as px
 import re
 import streamlit as st
 
-crops = pd.read_excel("Datos/Crops_STV.xlsx")
+crops = pd.read_excel("Crops_STV.xlsx")
 
 #Funcion para preparar las temporadas
 def split_seasons(original):
